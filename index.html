@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#d03f2f">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Spartan Font from Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+
+<body>
+  <main class="calculator">
+    <div class="calculator__header">
+      <h1>Calc</h1>
+
+      <div class="theme-changer">
+        <p>Theme</p>
+
+        <div class="toggle">
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          <div class="toggle-switch">
+            <div class="switch"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="calculator__input-area">
+      <input type="text" id="calc-input" placeholder="0">
+    </div>
+
+    <div class="calculator__keypads">
+      <button class="btn btn1">0</button>
+      <button class="btn btn2">1</button>
+      <button class="btn btn3">2</button>
+      <button class="btn btn4">3</button>
+      <button class="btn btn5">4</button>
+      <button class="btn btn6">5</button>
+      <button class="btn btn7">6</button>
+      <button class="btn btn8">7</button>
+      <button class="btn btn9">8</button>
+      <button class="btn btn10">9</button>
+      <button class="del">del</button>
+      <button class="reset">reset</button>
+      <button class="plus">+</button>
+      <button class="minus">-</button>
+      <button class="divide">/</button>
+      <button class="mul">x</button>
+      <button class="decimal">.</button>
+      <button class="equal">=</button>
+    </div>
+  </main>
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

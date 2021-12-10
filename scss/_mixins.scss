@@ -1,0 +1,27 @@
+/*
+
+    BREAKPOINTS
+
+*/
+
+// Mobile breakpoint
+@mixin mobile{
+    @media screen and (max-width: 475px){
+        @content;
+    }
+}
+
+// Tablet breakpoint
+@mixin tablet{
+    @media screen and (min-width: 476px) and (max-width: 900px){
+        @content;
+    }
+}
+
+
+// Dektop breakpoint
+@mixin desktop{
+    @media screen and (min-width: 901px) and (max-width: 1100px){
+        @content;
+    }
+}
